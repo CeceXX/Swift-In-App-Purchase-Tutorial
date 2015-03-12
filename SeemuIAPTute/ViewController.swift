@@ -138,7 +138,7 @@ class ViewController: UIViewController, SKProductsRequestDelegate, SKPaymentTran
 
     
     func paymentQueue(queue: SKPaymentQueue!, updatedTransactions transactions: [AnyObject]!) {
-        println("add paymnet")
+        println("add payment")
         
         for transaction:AnyObject in transactions {
             var trans = transaction as SKPaymentTransaction
